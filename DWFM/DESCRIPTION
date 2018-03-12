@@ -1,0 +1,22 @@
+Package: DWFM
+Type: Package
+Title: An implementation of the Differentially Weighted Factor Model
+Version: 0.1.0
+Author: Teal Guidici
+Maintainer: Teal Guidici <tealg@umich.edu>
+Description: Implements the method presented in "A Differentially Weighted Factor Model for Estimating Multiple Related Covariance Matrices with Applications to Lipidomics". 
+    Also includes visualization functions. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: igraph,
+    elasticnet,
+    vegan,
+    ggplot2,
+    reshape2,
+    grid,
+    stats
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
